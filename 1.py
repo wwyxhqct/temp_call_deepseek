@@ -2,7 +2,7 @@ from openai import OpenAI
 import sys
 import time
 
-def typewriter_print(text, delay=0.1):
+def typewriter_print(text, delay=0.005):
     for char in text:
         sys.stdout.write(char)
         sys.stdout.flush()
